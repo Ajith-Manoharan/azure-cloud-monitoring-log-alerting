@@ -42,7 +42,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ### Architecture Diagram
 
-![Architecture Diagram](azure-cloud-monitoring-log-alerting/screenshots/01-azure-cloud-monitoring-architecture.png)
+![Architecture Diagram](/screenshots/01-azure-cloud-monitoring-architecture.png)
 
 ---
 
@@ -72,7 +72,7 @@ A dedicated **Resource Group** was created to logically group all monitoring-rel
 - Follows enterprise Azure best practices
 
 📸 Screenshot:  
-![Resource Group](azure-cloud-monitoring-log-alerting/screenshots//01-resource-group.png)
+![Resource Group](/screenshots//01-resource-group.png)
 
 ---
 
@@ -86,8 +86,8 @@ A **Linux Virtual Machine** was deployed and to simulate a real workload that ge
 - Provides real telemetry for testing alerts
 
 📸 Screenshot:  
-![Linux VM Created](02-vm-created.png)
-![Nginx Installation](03-nginx-installed.png)
+![Linux VM Created](screenshots/02-vm-created.png)
+![Nginx Installation](/screenshots/03-nginx-installed.png)
 
 
 ---
