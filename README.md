@@ -134,7 +134,7 @@ A **Data Collection Rule (DCR)** was created to define:
 - Reduces cost and noise
 
 📸 Screenshot:  
-![Data Collection Rule](Screenshots/06-data-collection-rule.png)
+![Data Collection Rule](Screenshots/06-data-collection-rule.png.png)
 
 ---
 
@@ -250,8 +250,9 @@ To complete the monitoring workflow, the configured log-based alert was validate
 📸 Screenshot:  
 ![Alert Email Notification](Screenshots/17-email-notification.png)
 
+---
 
-### This step finalizes the project by validating the complete monitoring and alerting pipeline using Azure Monitor, Log Analytics, KQL, and Email-based Action Groups.
+**This step finalizes the project by validating the complete monitoring and alerting pipeline using Azure Monitor, Log Analytics, KQL, and Email-based Action Groups.**
 
 
 
