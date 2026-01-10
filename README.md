@@ -42,7 +42,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ### Architecture Diagram
 
-![Architecture Diagram](01-azure-cloud-monitoring-architecture.png)
+![Architecture Diagram](azure-cloud-monitoring-log-alerting/screenshots/01-azure-cloud-monitoring-architecture.png)
 
 ---
 
@@ -72,7 +72,7 @@ A dedicated **Resource Group** was created to logically group all monitoring-rel
 - Follows enterprise Azure best practices
 
 📸 Screenshot:  
-![Resource Group](screenshots/01-resource-group.png)
+![Resource Group](azure-cloud-monitoring-log-alerting/screenshots//01-resource-group.png)
 
 ---
 
