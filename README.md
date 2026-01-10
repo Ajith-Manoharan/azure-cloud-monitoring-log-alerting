@@ -72,7 +72,7 @@ A dedicated **Resource Group** was created to logically group all monitoring-rel
 - Follows enterprise Azure best practices
 
 📸 Screenshot:  
-![Resource Group](scrreenshots/01-resource-group.png)
+![Resource Group](screenshots/01-resource-group.png)
 
 ---
 
