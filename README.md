@@ -148,7 +148,7 @@ An **Azure AD App Registration (Service Principal)** was created to allow Grafan
 - Follows least-privilege access principles
 
 📸 Screenshot:  
-![App Registration](Screenshots/09-App registration for grafana.png)
+![App Registration](Screenshots/09-App-registration-grafana.png)
 
 ---
 
@@ -232,8 +232,8 @@ A custom **Log Search Alert Rule** was created using Azure Monitor to automatica
 - The alert triggers when matching log entries are found and executes an **Action Group** to send email notifications.
 
 📸 Screenshots:  
-![Log Alert Rule – Configuration](Screenshots/15-log-alert-rule-configuration.png)  
-![Log Alert Rule – Fired Alert Summary](Screenshots/16-log-alert-fired-summary.png)
+![Log Alert Rule – Configuration](Screenshots/15-triggering-alert_rule.png)  
+![Log Alert Rule – Fired Alert Summary](Screenshots/16-alert-fired-summary.png)
 
 ---
 
@@ -248,7 +248,7 @@ To complete the monitoring workflow, the configured log-based alert was validate
 - Demonstrates production-ready **incident response and alert validation** skills.
 
 📸 Screenshot:  
-![Alert Email Notification](Screenshots/17-alert-email-notification.png)
+![Alert Email Notification](Screenshots/17-email-notification.png)
 
 
 ### This step finalizes the project by validating the complete monitoring and alerting pipeline using Azure Monitor, Log Analytics, KQL, and Email-based Action Groups.
