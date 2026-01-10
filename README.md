@@ -86,8 +86,8 @@ A **Linux Virtual Machine** was deployed and to simulate a real workload that ge
 - Provides real telemetry for testing alerts
 
 📸 Screenshot:  
-![Linux VM Created](screenshots/02-vm-created.png)
-![Nginx Installation](screenshots/02-nginx-installed.png)
+![Linux VM Created](02-vm-created.png)
+![Nginx Installation](03-nginx-installed.png)
 
 
 ---
