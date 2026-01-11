@@ -42,7 +42,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ### Architecture Diagram
 
-![Architecture Diagram](Screenshots/01-azure-cloud-monitoring-architecture.png)
+![Architecture Diagram](architecture/Architecture-diagaram.png)
 
 ---
 
