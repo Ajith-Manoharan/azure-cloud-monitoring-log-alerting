@@ -42,7 +42,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ### Architecture Diagram
 
-![Architecture Diagram](architecture/Architecture-diagaram.png)
+![Architecture Diagram](Architecture/Architecture-diagaram.png)
 
 ---
 
