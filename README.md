@@ -1,9 +1,9 @@
-# 📊 Azure Cloud Monitoring Project  
+# Azure Cloud Monitoring Project  
 **Azure Monitor | Log Analytics | Grafana | Alerting**
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates an **end-to-end cloud monitoring and alerting solution** using **Microsoft Azure native monitoring services integrated with Grafana**.
 
@@ -16,7 +16,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Monitor Azure Virtual Machine performance metrics
 - Centralize system logs using Log Analytics
@@ -28,7 +28,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 ### Monitoring Flow
 
@@ -60,7 +60,7 @@ The implementation reflects **real-world Cloud Monitoring Engineer / SRE practic
 
 ---
 
-# 🚀 Project Implementation – Azure Cloud Monitoring & Alerting
+# Project Implementation – Azure Cloud Monitoring & Alerting
 
 ## Step 1: Resource Group Setup
 
@@ -71,7 +71,7 @@ A dedicated **Resource Group** was created to logically group all monitoring-rel
 - Simplifies access control and cleanup
 - Follows enterprise Azure best practices
 
-📸 Screenshot:  
+Screenshot:  
 ![Resource Group](Screenshots/01-resource-group.png)
 
 ---
@@ -85,7 +85,7 @@ A **Linux Virtual Machine** was deployed and to simulate a real workload that ge
 - Monitoring engineers must understand VM-level observability
 - Provides real telemetry for testing alerts
 
-📸 Screenshot:  
+Screenshot:  
 ![Linux VM Created](Screenshots/02-vm-created.png)
 ![Nginx Installation](Screenshots/03-nginx-installed.png)
 
@@ -101,7 +101,7 @@ A **Log Analytics Workspace** was created to act as the centralized log storage 
 - Required for Azure Monitor, VM Insights, and log-based alerts
 - Acts like Elasticsearch in ELK-based systems
 
-📸 Screenshot:  
+Screenshot:  
 ![Log Analytics Workspace](Screenshots/04-log-analytics-workspace.png)
 
 ---
@@ -117,7 +117,7 @@ The **Azure Monitor Agent (AMA)** was enabled on the VM to collect:
 - Required for VM Insights and Data Collection Rules
 - Ensures secure, scalable telemetry collection
 
-📸 Screenshot:  
+Screenshot:  
 ![Azure Monitor Agent](Screenshots/05-vm-insights-enabled.png)
 
 ---
@@ -133,7 +133,7 @@ A **Data Collection Rule (DCR)** was created to define:
 - Prevents unnecessary data ingestion
 - Reduces cost and noise
 
-📸 Screenshot:  
+Screenshot:  
 ![Data Collection Rule](Screenshots/06-data-collection-rule.png.png)
 
 ---
@@ -147,7 +147,7 @@ An **Azure AD App Registration (Service Principal)** was created to allow Grafan
 - Avoids using personal credentials
 - Follows least-privilege access principles
 
-📸 Screenshot:  
+Screenshot:  
 ![App Registration](Screenshots/09-App-registration-grafana.png)
 
 ---
@@ -160,7 +160,7 @@ An **Azure AD App Registration (Service Principal)** was created to allow Grafan
 - To experience the real workload
 - Sorting the incidents based on the severity using KQL Query
 
-📸 Screenshot:  
+Screenshot:  
 ![Log Injection](Screenshots/07-kql-log-query.png)
 ![Filtering Logs with KQL Query](Screenshots/08-syslog-ingestion.png)
 
@@ -181,7 +181,7 @@ Azure Monitor was added as a **Grafana data source**.
 - Commonly used in real monitoring teams
 - Complements Azure-native dashboards
 
-📸 Screenshot:  
+Screenshot:  
 ![Grafana Azure Monitor Connection](Screenshots/10-grafana-azure-connection.png)
 
 ---
@@ -199,7 +199,7 @@ Custom dashboards were created to visualize:
 - Helps correlate metrics with incidents
 - Improves operational awareness
 
-📸 Screenshot:  
+Screenshot:  
 ![Grafana Dashboard-Metrics](Screenshots/11-grafana-dashboard-metrics.png)
 ![Grafana Dashboard-Logs](Screenshots/12-grafana-dashboard-logs.png)
 
@@ -214,7 +214,7 @@ To validate end-to-end log monitoring and troubleshooting, system logs were manu
 - Enables deep log analysis similar to Logz.io or Elastic Cloud
 - Builds core skills required for Cloud Monitoring and SRE roles
 
-📸 Screenshots:  
+Screenshots:  
 ![Error Simulation Using Syslog](Screenshots/13-error-simulation-syslog.png)  
 ![Filtered Syslog Results in Log Analytics](Screenshots/14-kql_filtered-log_analytics.png)
 
@@ -231,7 +231,7 @@ A custom **Log Search Alert Rule** was created using Azure Monitor to automatica
 - Demonstrates real-world **log-based monitoring and alerting** using Azure-native services.
 - The alert triggers when matching log entries are found and executes an **Action Group** to send email notifications.
 
-📸 Screenshots:  
+Screenshots:  
 ![Log Alert Rule – Configuration](Screenshots/15-triggering-alert_rule.png)  
 ![Log Alert Rule – Fired Alert Summary](Screenshots/16-alert-fired-summary.png)
 
@@ -247,7 +247,7 @@ To complete the monitoring workflow, the configured log-based alert was validate
 - Ensures alerting mechanisms work reliably in real incident scenarios.
 - Demonstrates production-ready **incident response and alert validation** skills.
 
-📸 Screenshot:  
+Screenshot:  
 ![Alert Email Notification](Screenshots/17-email-notification.png)
 
 ---
